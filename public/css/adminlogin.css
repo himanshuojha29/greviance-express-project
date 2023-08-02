@@ -1,0 +1,187 @@
+.b{
+    background-image: url(../images/background.png);
+}
+
+
+.logo
+{
+    width: 130px;
+    cursor: pointer;
+}
+
+.btn2
+{
+    color: #fbfcfd;
+    /* padding: 10px 25px; */
+    background: transparent;
+    border: 1px solid #fff;
+    width: 8rem;
+    height: 3rem;
+    font-size: 18px !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 30px !important;
+    outline: none;
+    cursor: pointer;
+}
+.navbar .navbar-nav .nav-item a{
+    padding: 18px;
+    color:#c0e0f1;
+    font-size: 18px;
+    font-weight: 500;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+/* after hover */
+/* .nav-item a::after
+{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+    width: 100%;
+    height: 3px;
+    background: #1f242d;
+    border-radius: 5px;
+    transform-origin: right;
+    transform: scalex(0);
+    transition: transform .5s;
+}
+
+.nav-item a:hover::after
+{
+    transform-origin: left;
+    transform: scalex(1);
+} */
+
+.wrapper
+{
+    position: relative;
+    width: 400px;
+    height: 450px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper .form-box
+{
+    width: 100%;
+    padding: 40px;
+}
+.form-box h2{
+    font-size: 2rem;
+    columns:#162938;
+    text-align: center;
+    font-weight: 600;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.input-box
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-bottom: 2px solid #162938;
+    margin: 30px 0;
+}
+
+.input-box label
+{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    font-size: 1rem;
+    color: #162938;
+    font-weight: 500;
+    pointer-events: none;
+    transition: .2s;
+}
+.input-box input:focus~label,
+.input-box input:valid~label {
+    top: -10px;
+}
+
+.input-box input
+{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #162938;
+    font-weight: 600;
+  
+}
+
+.input-box .icon
+{
+    position: absolute;
+    right: 8px;
+    font-size: 1.2rem;
+    color: #162938;
+    line-height: 10px;
+}
+
+.remember-forgot{
+    font-size: .9rem;
+    color: #162938;
+    font-weight: 500;
+    margin: -15px 0 15px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.remember-forgot label input
+{
+    accent-color: #162938;
+    margin-right: 3px;
+}
+
+.remember-forgot a{
+    color: #162938;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover
+{
+    text-decoration: underline;
+    color: #162938;
+}
+
+.btn1
+{
+    width: 100%;
+    height: 45px;
+    background-color: #162938;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 600;
+}
+
+.login-register
+{
+    font-size: .9rem;
+    color: #162938;
+    font-weight: 500;
+   text-align: center;
+   margin: 25px 0 10px;
+
+}
+.login-register p a{
+    color: #162938;
+    text-decoration: none;
+    font-weight: 600;
+}
+.login-register p a:hover
+{
+    text-decoration: underline;
+}
