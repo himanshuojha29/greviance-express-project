@@ -14,8 +14,11 @@ app.use(express.static('public'))
 // dbconnection
 connectdb();
 
-//router load
 
+// for showing data
+app.use(express.urlencoded({extended:true}))
+
+//router load
 app.use('/',web)
 
 

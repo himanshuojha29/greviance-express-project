@@ -30,6 +30,7 @@ route.get('/studentlogin',FrontController.studentlogin)
 route.get('/admin/dashboard',AdminController.dashboard)
 route.get('/admin/login',AdminController.login)
 route.get('/admin/register',AdminController.register)
+route.post('/admininsert',AdminController.admininsert)
 
 // Admin Student controller
 
