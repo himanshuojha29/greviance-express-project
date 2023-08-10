@@ -36,5 +36,7 @@ route.post('/admin/verifylogin',AdminController.verifylogin)
 // Admin Student controller
 
 route.get('/admin/addstudent',StudentController.addstudent)
+route.post('/studentinsert',StudentController.studentinsert)
+route.get('/admin/studentview/:id',StudentController.viewstudent)
 
 module.exports  = route;
