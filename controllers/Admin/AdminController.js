@@ -4,7 +4,7 @@ const bcrypt = require('bcrypt')
 class AdminController {
     static dashboard = async(req,res)=>{
         try {
-            res.render('admin/dashboard')
+            res.render('/dashboard')
             
         } catch (error) {
             console.log(error)
@@ -68,7 +68,7 @@ class AdminController {
             }
 
            }else{
-            req.redirect('/admin/login')
+            res.redirect('/admin/login')
            }
             
           } else {
